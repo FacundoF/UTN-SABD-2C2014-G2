@@ -3503,7 +3503,7 @@
     <relationshipEnds xmi:id="_ij7B4TMmEeS1Ee7sG93rIQ" cardinality="ONE" entity="_Jb3U8DL9EeSjL7zisQAJHQ" key="_Ns6d8DL-EeSjL7zisQAJHQ"/>
     <relationshipEnds xmi:id="_ij7B4jMmEeS1Ee7sG93rIQ" verbPhrase="Tiene" cardinality="ZERO_TO_MANY" entity="_PKSTsDMmEeS1Ee7sG93rIQ" key="_ij7o8DMmEeS1Ee7sG93rIQ"/>
   </LogicalDataModel:Relationship>
-  <LogicalDataModel:Entity xmi:id="_6nXMwDMmEeS1Ee7sG93rIQ" name="IMAGEN_USUAIRO" package="_6QygoDL2EeSjL7zisQAJHQ" generalizations="_zE-GIEDLEeSUGqrAxC3uRA">
+  <LogicalDataModel:Entity xmi:id="_6nXMwDMmEeS1Ee7sG93rIQ" name="IMAGEN_USUARIO" package="_6QygoDL2EeSjL7zisQAJHQ" generalizations="_zE-GIEDLEeSUGqrAxC3uRA">
     <attributes xmi:id="_H8H00EDEEeSUGqrAxC3uRA" name="resolucion" dataType="VARCHAR(20)"/>
     <attributes xmi:id="_zFEz0EDLEeSUGqrAxC3uRA" name="multimedia_usuario_id" dataType="INTEGER" required="true"/>
     <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_zE-GIUDLEeSUGqrAxC3uRA" name="Clave foránea1" attributes="_zFEz0EDLEeSUGqrAxC3uRA" generalization="_zE-GIEDLEeSUGqrAxC3uRA"/>
